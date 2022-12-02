@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #fff;
+}
+.logo h1{
+    cursor: pointer;
+}
+.navbar {
+    display: flex;
+}
+.navbar li {
+    margin: 20px;
+}
+.navbar a {
+    color: #000;
+}
+.icon {
+    display: flex;
+}
+.icon .one{
+    background-color: #D9D9D9;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.icon .one:hover {
+    background-color: orangered;
+    border-radius: 5px;
+}
+.icon .twu{
+    background-color: #D9D9D9;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.icon .twu:hover {
+    background-color: orangered;
+    border-radius: 5px;
+}
+.icon .thre{
+    background-color: #D9D9D9;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.icon .thre:hover {
+    background-color: orangered;
+    border-radius: 5px;
+}
+.icon img{
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+/* cover */
+.banner {
+    width: 100%;
+    height: 30vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.5)),url(img/cover.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+}
+span {
+    color: orangered;
+}
+.banner p {
+    padding-top: 10px;
+}
+.banner button {
+    margin-top: 40px;
+    width: 110px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 10px;
+    color: #fff;
+}
+.banner button:hover {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+
+/* contect */
+.contect {
+    width: 100%;
+    height: 59vh;
+    background-color: #D9D9D9;
+}
+.contect h1 {
+    text-align: center;
+}
+.contect-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contect .contect-one{
+    background-color: #fff;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+.contect-one img {
+    padding-top: 30px;
+}
+.contect-one h1 {
+    padding-top: 20px;
+}
+.contect-one button {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.contect-one button:hover {
+    background-color: orangered;
+    border-radius: 20px;
+    border-color: #fff;
+    color: #fff;
+}
+.contect .contect-twu{
+    background-color: #fff;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+.contect-twu img {
+    padding-top: 30px;
+}
+.contect-twu h1 {
+    padding-top: 20px;
+}
+.contect-twu button {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.contect-twu button:hover {
+    background-color: orangered;
+    border-radius: 20px;
+    border-color: #fff;
+    color: #fff;
+}
+.contect .contect-thre{
+    background-color: #fff;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+.contect-thre img {
+    padding-top: 30px;
+}
+.contect-thre h1 {
+    padding-top: 20px;
+}
+.contect-thre button {
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.contect-thre button:hover {
+    background-color: orangered;
+    border-radius: 20px;
+    border-color: #fff;
+    color: #fff;
+}
